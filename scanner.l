@@ -36,12 +36,12 @@ SPECIAL		[,;:(){}\[\]{}\+\-\*<>=!&$\/]
 "output"							return KW_OUTPUT;
 
 
-"<="								return OPERATOR_LE   
-">="								return OPERATOR_GE   
-"=="								return OPERATOR_EQ   
-"!="								return OPERATOR_NE   
-"&&"								return OPERATOR_AND  
-"||"								return OPERATOR_OR   
+"<="								return OPERATOR_LE;   
+">="								return OPERATOR_GE;   
+"=="								return OPERATOR_EQ;   
+"!="								return OPERATOR_NE;  
+"&&"								return OPERATOR_AND;  
+"||"								return OPERATOR_OR;   
 
 
 "false"								{ hash_insert(yytext, LIT_FALSE); return LIT_FALSE; }
