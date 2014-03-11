@@ -29,11 +29,8 @@ while(running)
 	switch(token)
 	{
 		case KW_IF:						printf ("palavra reservada IF \n"); break;
-		case TK_IDENTIFIER:				printf("identificador\n"); break; 
-		//case SYMBOL_OPEN_BRACKET:		printf(); break;
-		//case SYMBOL_CLOSE_BRACKET:	printf(); break;
-		//case SYMBOL_SEMICOLON:		printf(); break;
-		case LIT_INTEGER:				printf("forma literal inteira\n"); break;
+		case TK_IDENTIFIER:				printf ("identificador\n"); break; 
+		case LIT_INTEGER:				printf ("forma literal inteira\n"); break;
 		case 7:	printf("7\n"); break;
 	}
 // geralmente como codigo para os simbolos se usa os proprios codigos ASCII
