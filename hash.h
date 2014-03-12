@@ -14,4 +14,4 @@ void hashInit(void);
 void hashPrint();
 int hashAddress(char *text);
 HASH_NODE *hashInsert(char *text, int type);
-HASH_NODE *hashFind(char *text);
+HASH_NODE *hashFind(char *text, int type);
